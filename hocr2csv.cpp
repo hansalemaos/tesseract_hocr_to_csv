@@ -414,7 +414,7 @@ static constexpr bool startswith(const std::string_view haystack, const std::str
 std::string static get_string_ready(const std::string_view ref, size_t indexstart)
 {
     std::string tmpsubstr{ref.substr(indexstart)};
-    find_all_indices__and_replace_with_char(tmpsubstr, "\'", ' ');
+    find_all_indices__and_replace_with_char(tmpsubstr, "'", ' ');
     ltrim_space(tmpsubstr);
     rtrim_space(tmpsubstr);
     return tmpsubstr;
