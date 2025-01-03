@@ -164,7 +164,8 @@ static constexpr std::string_view csv_header{
     "fsize\",\"x_size\",\"x_ascenders\",\"x_descenders\",\"x_wconf\",\"x_confs\",\"x_mpconf\",\"line_conf\",\"char_"
     "conf\",\"ppageno\",\"block_num\",\"par_num\",\"line_num\",\"word_num\",\"image\",\"scan_res\",\"rotate\",\"x_line_"
     "bboxes\",\"x_line_confs\",\"x_text\",\"line_index\",\"children\",\"parents\",\"aa_start_x\",\"aa_start_y\",\"aa_"
-    "end_x\",\"aa_end_y\",\"aa_center_x\",\"aa_center_y\",\"aa_width\",\"aa_height\",\"aa_area\",\"aa_w_h_relation\""};
+    "end_x\",\"aa_end_y\",\"aa_center_x\",\"aa_center_y\",\"aa_width\",\"aa_height\",\"aa_area\",\"aa_w_h_"
+    "relation\"\n"};
 
 static std::string dump_struct_vector_as_csv(std::vector<line_result> &v)
 {
